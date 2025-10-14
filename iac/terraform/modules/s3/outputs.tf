@@ -1,0 +1,5 @@
+output "bucket_domain_name" {
+  value       = ""
+  sensitive   = false
+  description = "The domain name of the S3 bucket"
+}
